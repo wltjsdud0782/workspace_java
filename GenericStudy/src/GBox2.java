@@ -10,6 +10,7 @@ public class GBox2<T extends C2> {
     public void set(T obj){
         this.obj = obj;
         obj.aaa(); // obj.bbb(); 가능 , obj.ccc(); 불가능
+
     }
 
     public T get(){
